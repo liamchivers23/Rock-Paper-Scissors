@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #058cd7;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.modal{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position: absolute;
+    left: 510px;
+    top: 160px;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.playBtn{
+    color:#000000;
+    background-color: #ffffff;
+}
+
+
+.head-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 50px
+}
+
+.gameInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.gameInfo{
+    color: white;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+button > img{
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #058cd7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newGameContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.newGameBtn{
+    display: none;
+}
